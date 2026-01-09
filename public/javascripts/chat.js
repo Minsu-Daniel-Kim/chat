@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var message = [];
 
 
-	var socket = io.connect('http://localhost:8080');
+	var socket = io.connect();
 
 	socket.on('message', function(data){
 
